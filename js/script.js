@@ -16,22 +16,7 @@ $(document).ready(function () {
 			}
 		}
 	}
-	// function adaptive_boards(w, h) {
-	// 	var hero = $('.hero-title');
-	// 	var boards = $('.boards');
-	// 	var mBoards = $('.m-boards');
-	// 	if (w < 767.98) {
-	// 		if (!boards.hasClass('done')) {
-	// 			boards.addClass('done').appendTo(mBoards);
-	// 			mBoards.addClass('active');
-	// 		}
-	// 	} else {
-	// 		if (boards.hasClass('done')) {
-	// 			boards.removeClass('done').appendTo(hero);
-	// 			mBoards.removeClass('active');
-	// 		}
-	// 	}
-	// }
+
 	function adaptive_function() {
 		var w = $(window).outerWidth();
 		var h = $(window).outerHeight();
@@ -77,7 +62,6 @@ $(document).ready(function () {
 
 	$('.board-slide').each(function () {
 		$(this).find('.tab-title').eq(0).addClass('open');
-		// $(this).find('.tab-text').eq(0).show().addClass('open').siblings().removeClass('open').hide();
 		$(this).find('.tab-text').eq(0).addClass('open').siblings().removeClass('open');
 		$(this).find('.tab-text').niceScroll({ cursorcolor: '#00b0ff' });
 	});
@@ -109,20 +93,7 @@ $(document).ready(function () {
 	}
 	ibg();
 
-	// $('.team__slider').slick({
-	// 	// infinite: true,
-	// 	slidesToShow: 4,
-	// 	slidesToScroll: 1,
-	// 	arrows: true,
-	// 	// centerMode: true,
-	// 	// centerPadding: "30px",
-	// 	// responsive: [
-	// 	// 	{
-	// 	// 		breakpoint: 767.98,
-	// 	// 		settings: "unslick"
-	// 	// 	}
-	// 	// ]
-	// });
+
 
 
 });

@@ -1,45 +1,5 @@
 @charset "UTF-8";
 
-@font-face {
-  font-family: "Montserrat-Bold";
-  font-display: swap;
-  src: url("../fonts/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Montserrat-Regular";
-  font-display: swap;
-  src: url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "PlayfairDisplay-Italic";
-  font-display: swap;
-  src: url("../fonts/PlayfairDisplay-Italic.woff") format("woff"), url("../fonts/PlayfairDisplay-Italic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Raleway-Bold";
-  font-display: swap;
-  src: url("../fonts/Raleway-Bold.woff") format("woff"), url("../fonts/Raleway-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Raleway-Regular";
-  font-display: swap;
-  src: url("../fonts/Raleway-Regular.woff") format("woff"), url("../fonts/Raleway-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
 * {
   padding: 0px;
   margin: 0px;
@@ -141,6 +101,46 @@ h6 {
   font-size: inherit;
 }
 
+@font-face {
+  font-family: "Montserrat-Bold";
+  font-display: swap;
+  src: url("../fonts/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  font-display: swap;
+  src: url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PlayfairDisplay-Italic";
+  font-display: swap;
+  src: url("../fonts/PlayfairDisplay-Italic.woff") format("woff"), url("../fonts/PlayfairDisplay-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway-Bold";
+  font-display: swap;
+  src: url("../fonts/Raleway-Bold.woff") format("woff"), url("../fonts/Raleway-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway-Regular";
+  font-display: swap;
+  src: url("../fonts/Raleway-Regular.woff") format("woff"), url("../fonts/Raleway-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
 .wrapper {
   width: 100%;
   min-height: 100%;
@@ -159,11 +159,6 @@ body {
   font-size: 16px;
   color: #787878;
   background-color: #fff;
-}
-
-a,
-button {
-  cursor: pointer;
 }
 
 .hero {
@@ -230,7 +225,6 @@ button {
   letter-spacing: -0.2px;
   text-transform: uppercase;
   color: #000;
-  background-color: none;
   -webkit-transition: all 0.2s ease 0s;
   -o-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
@@ -274,44 +268,44 @@ button {
 
 .social__icon:nth-child(1) {
   background-image: url(../img/fb.png);
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.1s ease 0s;
+  -o-transition: all 0.1s ease 0s;
+  transition: all 0.1s ease 0s;
 }
 
 .social__icon:nth-child(2) {
   background-image: url(../img/inst.png);
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.1s ease 0s;
+  -o-transition: all 0.1s ease 0s;
+  transition: all 0.1s ease 0s;
 }
 
 .social__icon:nth-child(3) {
   background-image: url(../img/mail.png);
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.1s ease 0s;
+  -o-transition: all 0.1s ease 0s;
+  transition: all 0.1s ease 0s;
 }
 
 .social__icon:hover:nth-child(1) {
   background-image: url(../img/fb-h.png);
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.1s ease 0s;
+  -o-transition: all 0.1s ease 0s;
+  transition: all 0.1s ease 0s;
 }
 
 .social__icon:hover:nth-child(2) {
   background-image: url(../img/inst-h.png);
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.1s ease 0s;
+  -o-transition: all 0.1s ease 0s;
+  transition: all 0.1s ease 0s;
 }
 
 .social__icon:hover:nth-child(3) {
   background-image: url(../img/mail-h.png);
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.1s ease 0s;
+  -o-transition: all 0.1s ease 0s;
+  transition: all 0.1s ease 0s;
 }
 
 .hero-title {
@@ -319,7 +313,6 @@ button {
   text-align: center;
   font-family: "PlayfairDisplay-Italic", Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-style: italic;
 }
 
 .hero-title__title {
@@ -477,7 +470,6 @@ button {
   position: relative;
   padding-bottom: 29px;
   font-family: "Montserrat-Bold", Arial, Helvetica, sans-serif;
-  font-weight: 700;
 }
 
 .card-header__title {
@@ -529,7 +521,6 @@ button {
 .raiting span {
   margin: 2px 0px 0px 3px;
   font-family: "Montserrat-Bold", Arial, Helvetica, sans-serif;
-  font-weight: 700;
   font-size: 12px;
   color: #787878;
 }
@@ -552,7 +543,6 @@ button {
   position: relative;
   cursor: pointer;
   font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
-  font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.6px;
@@ -597,7 +587,6 @@ button {
   display: -ms-flexbox;
   display: flex;
   font-family: "Montserrat-Bold", Arial, Helvetica, sans-serif;
-  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -652,7 +641,7 @@ button {
 
 .about-wrapper {
   width: 100%;
-  background: url(../img/About-us.png) top center no-repeat;
+  background: url(../img/About-us-compressor.png) top center no-repeat;
   background-size: auto;
 }
 
@@ -691,7 +680,6 @@ button {
   position: relative;
   padding: 0px 0px 33px 13px;
   font-family: "Montserrat-Bold", Arial, Helvetica, sans-serif;
-  font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
   text-align: center;
@@ -713,7 +701,6 @@ button {
   padding: 21px 0px 26px 0px;
   font-family: "PlayfairDisplay-Italic", Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-style: italic;
   font-size: 22px;
   line-height: 38px;
   color: #000000;
@@ -869,7 +856,6 @@ button {
 .blog__title {
   padding: 0px 0px 33px 0px;
   font-family: "Montserrat-Bold", Arial, Helvetica, sans-serif;
-  font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
   text-align: center;
@@ -971,7 +957,6 @@ button {
   padding: 16px 30px;
   text-align: center;
   font-family: "Montserrat-Bold", Arial, Helvetica, sans-serif;
-  font-weight: 700;
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -1074,7 +1059,6 @@ button {
   letter-spacing: -2px;
   color: #00b0ff;
   font-family: "Montserrat-Bold", Arial, Helvetica, sans-serif;
-  font-weight: 700;
   text-transform: uppercase;
 }
 
