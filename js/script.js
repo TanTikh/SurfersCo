@@ -21,17 +21,16 @@ $(document).ready(function () {
 		var w = $(window).outerWidth();
 		var h = $(window).outerHeight();
 		adaptive_header(w, h);
-		// adaptive_boards(w, h);
 	}
 	adaptive_function();
 	$('.burger').click(function (event) {
 		$('.burger, .nav').toggleClass('active');
-		$('.header-menu').slideToggle(300);
+		$('.header-menu').slideToggle(500);
 		$('body').toggleClass('lock');
 	});
 	$('.burger.active, .nav-list__item').click(function (event) {
 		$('.burger, .nav').removeClass('active');
-		$('.header-menu').slideUp(300);
+		$('.header-menu').slideUp(500);
 		$('body').removeClass('lock');
 	});
 
